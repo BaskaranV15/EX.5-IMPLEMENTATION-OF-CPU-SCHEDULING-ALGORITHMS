@@ -59,8 +59,7 @@ print(f"Average turnaround time = {avg_tat}")
 First-Come-First-Serve Scheduling is implemented successfully.
 
 
-## AIM: 
-To implement Shortest Job First (SJF) Preemptive Scheduling
+## AIM: To implement Shortest Job First (SJF) Preemptive Scheduling
 
 ## ALGORITHM:
 Start the process Accept the number of processes in the ready queue For each process in the ready queue, do the following: Accept the process ID and burst time Calculate the waiting time for the current process Calculate the turnaround time for the current process Display the process ID, burst time, waiting time and turnaround time for the current process Calculate the average waiting time and average turnaround time Stop the process
@@ -120,8 +119,7 @@ print(f"Average Turnaround Time = {avg_tat:.2f}")
 Shortest Job First (SJF) preemptive scheduling is implemented successfully.
 
 
-## AIM: 
-To implement Shortest Job First (SJF) Non-Preemptive Scheduling
+## AIM: To implement Shortest Job First (SJF) Non-Preemptive Scheduling
 
 ## ALGORITHM:
 Shortest Job First (SJF) Non-Preemptive Scheduling is a scheduling algorithm that aims to minimize the average waiting time of processes in a CPU scheduling environment. It selects the process with the shortest burst time to execute first. The algorithm operates in a non-preemptive manner, meaning that once a process starts executing, it continues until it completes its entire burst time. To implement SJF, you first determine the burst time for each process and then sort the processes in ascending order of their burst times. The process with the shortest burst time is scheduled to run next. This process continues until all processes have been executed. SJF non-preemptive scheduling is effective in minimizing waiting times for shorter tasks but can lead to longer waiting times for longer tasks if they arrive early in the queue.
@@ -180,8 +178,7 @@ if __name__ == "__main__":
 ## RESULT: 
 Shortest Job First (SJF) Non-preemptive scheduling is implemented successfully.
 
-## AIM:
-To implement Round Robin (RR) Scheduling
+## AIM:To implement Round Robin (RR) Scheduling
 
 ## ALGORITHM:
 Start the process Get the number of elements to be inserted Get the value for burst time for individual processes Get the value for time quantum Make the CPU scheduler go around the ready queue allocating CPU to each process for the time interval specified Make the CPU scheduler pick the first process and set time to interrupt after quantum. And after it's expiry dispatch the process If the process has burst time less than the time quantum then the process is released by the CPU If the process has burst time greater than time quantum then it is interrupted by the OS and the process is put to the tail of ready queue and the schedule selects next process from head of the queue Calculate the total and average waiting time and turnaround time Display the results
@@ -246,10 +243,10 @@ if __name__ == "__main__":
 
 ```
 
-# OUTPUT:
+## OUTPUT:
 
 
-# RESULT:
+## RESULT:
 Round Robin (RR) Scheduling is implemented successfully.
 
 
@@ -263,7 +260,7 @@ To implement Priority Preemptive Scheduling
 4.Compute the average waiting time and average turnaround time. 
 5.Display the results, including process details and averages
 
-# PROGRAM:
+## PROGRAM:
 ```
 def priority_preemptive(processes, burst_time, priorities):
     n = len(processes)
@@ -316,11 +313,11 @@ if __name__ == "__main__":
 ## OUTPUT:
 
 
-## RESULT: Priority Preemptive scheduling is implemented successfully.
+## RESULT: 
+Priority Preemptive scheduling is implemented successfully.
 
 
-## AIM: 
-To implement Priority Non-Preemptive Scheduling
+## AIM:To implement Priority Non-Preemptive Scheduling
 
 ## ALGORITHM:
 In Priority Non-Preemptive Scheduling, each process is associated with a priority value, which is used to determine the order in which processes are executed. The scheduler selects the process with the highest priority from the ready queue and allows it to execute until completion. If multiple processes have the same highest priority, they are executed in the order they arrived, following a FCFS approach. This algorithm continues until all processes have completed their execution.
