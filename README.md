@@ -1,7 +1,6 @@
-# EX.5-IMPLEMENTATION-OF-CPU-SCHEDULING-ALGORITHMS
+![2](https://github.com/BaskaranV15/EX.5-IMPLEMENTATION-OF-CPU-SCHEDULING-ALGORITHMS/assets/118703522/84a135a5-6706-4709-ae20-61806e9a97e4)# EX.5-IMPLEMENTATION-OF-CPU-SCHEDULING-ALGORITHMS
 ## FIRST COME FIRST SERVE(FCFS) SCHEDULING
-## AIM: 
-To implement First-Come-First-Serve (FCFS) Scheduling
+## AIM: To implement First-Come-First-Serve (FCFS) Scheduling
 
 ## ALGORITHM:
 Start the process Accept the number of processes in the ready queue For each process in the ready queue, do the following: Accept the process ID and burst time Calculate the waiting time for the current process Calculate the turnaround time for the current process Display the process ID, burst time, waiting time and turnaround time for the current process Calculate the average waiting time and average turnaround time Stop the process.
@@ -53,6 +52,7 @@ print(f"Average waiting time = {avg_wt}")
 print(f"Average turnaround time = {avg_tat}")
 ```
 ## output
+![1](https://github.com/BaskaranV15/EX.5-IMPLEMENTATION-OF-CPU-SCHEDULING-ALGORITHMS/assets/118703522/8840be80-27bc-441c-850d-b715e19aee37)
 
 
 ## RESULT: 
@@ -114,6 +114,8 @@ print(f"Average Turnaround Time = {avg_tat:.2f}")
 
 ## OUTPUT:
 
+![2](https://github.com/BaskaranV15/EX.5-IMPLEMENTATION-OF-CPU-SCHEDULING-ALGORITHMS/assets/118703522/38a94b00-9eae-4c40-b2f7-6f488188f3fa)
+
 
 ## RESULT:
 Shortest Job First (SJF) preemptive scheduling is implemented successfully.
@@ -174,6 +176,7 @@ if __name__ == "__main__":
 
 ## OUTPUT:
 
+![3](https://github.com/BaskaranV15/EX.5-IMPLEMENTATION-OF-CPU-SCHEDULING-ALGORITHMS/assets/118703522/d12814a9-4155-48dc-82da-3fd10eef3c91)
 
 ## RESULT: 
 Shortest Job First (SJF) Non-preemptive scheduling is implemented successfully.
@@ -245,13 +248,14 @@ if __name__ == "__main__":
 
 ## OUTPUT:
 
+![4](https://github.com/BaskaranV15/EX.5-IMPLEMENTATION-OF-CPU-SCHEDULING-ALGORITHMS/assets/118703522/386fa455-a3c7-469e-9108-7c89dc7fe1c8)
+
 
 ## RESULT:
 Round Robin (RR) Scheduling is implemented successfully.
 
 
-## AIM: 
-To implement Priority Preemptive Scheduling
+## AIM:To implement Priority Preemptive Scheduling
 
 ## ALGORITHM:
 1.Input process information for n processes and initialize variables. 
@@ -311,6 +315,7 @@ if __name__ == "__main__":
 ```
 
 ## OUTPUT:
+![5](https://github.com/BaskaranV15/EX.5-IMPLEMENTATION-OF-CPU-SCHEDULING-ALGORITHMS/assets/118703522/374bcaf8-6360-4bff-815f-78617ae9ab2f)
 
 
 ## RESULT: 
@@ -370,6 +375,7 @@ if __name__ == "__main__":
 ```
 
 ## OUTPUT:
+![6](https://github.com/BaskaranV15/EX.5-IMPLEMENTATION-OF-CPU-SCHEDULING-ALGORITHMS/assets/118703522/4aad1b14-3ed0-4f02-a01e-64185a78c61a)
 
 
 ## RESULT:
